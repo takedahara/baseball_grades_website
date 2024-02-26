@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<!DOCTYPE web-app
+  PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+  "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <servlet>
+  	<servlet-name>Homepage</servlet-name>
+  	<servlet-class>HomepageServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>List</servlet-name>
+    <servlet-class>ListServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Search</servlet-name>
+    <servlet-class>SearchServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Add</servlet-name>
+    <servlet-class>AddServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Item</servlet-name>
+    <servlet-class>ItemServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Update</servlet-name>
+    <servlet-class>UpdateServlet</servlet-class>
+  </servlet>
+
+  <servlet>
+    <servlet-name>Delete</servlet-name>
+    <servlet-class>DeleteServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Team</servlet-name>
+  	<servlet-class>TeamServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>TeamUpdate</servlet-name>
+  	<servlet-class>TeamUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Manager</servlet-name>
+  	<servlet-class>ManagerServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ManagerUpdate</servlet-name>
+  	<servlet-class>ManagerUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Addseiseki</servlet-name>
+  	<servlet-class>AddseisekiServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Teaminformation</servlet-name>
+  	<servlet-class>TeaminformationServlet</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Ranking</servlet-name>
+  	<servlet-class>RankingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Homepage</servlet-name>
+  	<url-pattern>/homepage</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>List</servlet-name>
+    <url-pattern>/list</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Search</servlet-name>
+    <url-pattern>/search</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Add</servlet-name>
+    <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Item</servlet-name>
+    <url-pattern>/item</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Update</servlet-name>
+    <url-pattern>/update</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>Delete</servlet-name>
+    <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Team</servlet-name>
+  	<url-pattern>/team</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>TeamUpdate</servlet-name>
+  	<url-pattern>/teamupdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Manager</servlet-name>
+  	<url-pattern>/manager</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ManagerUpdate</servlet-name>
+  	<url-pattern>/managerupdate</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Addseiseki</servlet-name>
+  	<url-pattern>/addseiseki</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Teaminformation</servlet-name>
+  	<url-pattern>/teaminformation</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Ranking</servlet-name>
+  	<url-pattern>/ranking</url-pattern>
+  </servlet-mapping>
+
+
+
+</web-app>
